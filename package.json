@@ -1,6 +1,6 @@
 {
   "name": "@w3ctech-editorial-department/craco-antd-mobile",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.0",
   "description": "A craco plugin to use Ant Design Mobile with create-react-app",
   "main": "lib/craco-antd-mobile.js",
   "publishConfig": {
