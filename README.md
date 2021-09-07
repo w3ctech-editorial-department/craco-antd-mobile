@@ -6,7 +6,7 @@
 
 This is a [craco](https://github.com/gsoft-inc/craco) plugin that makes it easy to use the [Ant Design Mobile](https://mobile.ant.design/) UI library with [create-react-app](https://facebook.github.io/create-react-app/) version >= 4.
 
-`craco-antd-mobile` includes:
+`@w3ctech-editorial-department/craco-antd-mobile` includes:
 
 - An easy way to customize the theme
 - Less support (provided by [craco-less](https://github.com/DocSpring/craco-less))
@@ -18,24 +18,24 @@ First, follow the beginning section of the [Ant Design Mobile `create-react-app`
 
 Then, follow the [`craco` Installation Instructions](https://github.com/gsoft-inc/craco/blob/master/packages/craco/README.md#installation) to install the `craco` package, create a `craco.config.js` file, and modify the scripts in your `package.json`.
 
-Then install `craco-antd-mobile` and `antd-mobile`:
+Then install `@w3ctech-editorial-department/craco-antd-mobile` and `antd-mobile`:
 
 ```bash
-$ yarn add antd-mobile && yarn add -D craco-antd-mobile
+$ yarn add antd-mobile && yarn add -D @w3ctech-editorial-department/craco-antd-mobile
 
 # OR
 
-$ npm i antd-mobile && npm i -D craco-antd-mobile
+$ npm i antd-mobile && npm i -D @w3ctech-editorial-department/craco-antd-mobile
 ```
 
-> `craco-antd-mobile` only has a "peer dependency" for `antd-mobile >= 2.3.4`. So you should add a suitable version of `antd-mobile` to your own `package.json`.
+> `@w3ctech-editorial-department/craco-antd-mobile` only has a "peer dependency" for `antd-mobile >= 2.3.4`. So you should add a suitable version of `antd-mobile` to your own `package.json`.
 
 ## Basic Usage
 
 Here is a complete `craco.config.js` configuration file that sets up Less compilation and `babel-plugin-import` for `create-react-app`:
 
 ```js
-const CracoAntDesignMobilePlugin = require("craco-antd-mobile");
+const CracoAntDesignMobilePlugin = require("@w3ctech-editorial-department/craco-antd-mobile");
 
 module.exports = {
   plugins: [{ plugin: CracoAntDesignMobilePlugin }],
@@ -46,7 +46,7 @@ module.exports = {
 
 You can modify the default Ant Design Mobile theme by changing some Less variables.
 
-`craco-antd-mobile` will look for variables in a Less file at `./antd-mobile.customize.less`. (You can customize this file path with the `customizeThemeLessPath` option.)
+`@w3ctech-editorial-department/craco-antd-mobile` will look for variables in a Less file at `./antd-mobile.customize.less`. (You can customize this file path with the `customizeThemeLessPath` option.)
 
 ```less
 @brand-primary: #00eaa9;
@@ -57,7 +57,7 @@ You can modify the default Ant Design Mobile theme by changing some Less variabl
 You can also customize these variables directly in your `craco.config.js` with the `customizeTheme` option:
 
 ```js
-const CracoAntDesignMobilePlugin = require("craco-antd-mobile");
+const CracoAntDesignMobilePlugin = require("@w3ctech-editorial-department/craco-antd-mobile");
 
 module.exports = {
   plugins: [
