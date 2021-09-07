@@ -1,4 +1,4 @@
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![npm version](https://badge.fury.io/js/@w3ctech-editorial-department%2Fcraco-antd-mobile.svg)](https://badge.fury.io/js/@w3ctech-editorial-department%2Fcraco-antd-mobile)
 
 ---
 
