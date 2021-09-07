@@ -52,7 +52,7 @@ You can modify the default Ant Design Mobile theme by changing some Less variabl
 @brand-primary: #00eaa9;
 ```
 
-> [Here's a list of all the variables that can be modified.](https://github.com/ant-design/ant-design-mobile/blob/master/components/style/themes/default.less)
+> [Here's a list of all the variables that can be modified.](https://github.com/ant-design/ant-design-mobile/blob/2.3.x/components/style/themes/default.less)
 
 You can also customize these variables directly in your `craco.config.js` with the `customizeTheme` option:
 
