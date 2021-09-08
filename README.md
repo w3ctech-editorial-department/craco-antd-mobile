@@ -18,7 +18,7 @@ First, follow the beginning section of the [Ant Design Mobile `create-react-app`
 
 Then, follow the [`craco` Installation Instructions](https://github.com/gsoft-inc/craco/blob/master/packages/craco/README.md#installation) to install the `craco` package, create a `craco.config.js` file, and modify the scripts in your `package.json`.
 
-Then install `@w3ctech-editorial-department/craco-antd-mobile` and `antd-mobile`:
+Finally, install `@w3ctech-editorial-department/craco-antd-mobile` and `antd-mobile`:
 
 ```bash
 $ yarn add antd-mobile && yarn add -D @w3ctech-editorial-department/craco-antd-mobile
